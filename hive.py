@@ -17,7 +17,7 @@ from pyspark import SparkContext, SparkConf
 from pyspark.sql import SparkSession
 
 
-
+#master = spark://spark:7077
 master = os.environ.get("SPARK_MASTER_URL")
 
 spark = SparkSession.builder \
