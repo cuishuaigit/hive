@@ -102,7 +102,7 @@ def run(filePath):
 
     model = os.path.splitext(os.path.basename(filePath))[0]
 
-    if executor == 'hive':
+    if executor == '/data/apache-hive-2.1.1-bin/bin/hive':
 
         print('model', model)
 
