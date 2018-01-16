@@ -96,7 +96,7 @@ def run(filePath):
 
 
 
-    call("{} -f {}".format(filePath, executor),shell=True)
+    call("{} -f {}".format(executor,filePath),shell=True)
 
 
 
